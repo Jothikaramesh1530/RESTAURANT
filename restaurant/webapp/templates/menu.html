@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Garden - Menu</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+
+    <header>
+        <img src="{% static 'images/logo.jpg' %}" alt="Spice Garden Logo">
+        <h1>SPICE GARDEN</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/menu/" class="active">Menu</a></li>
+            <li><a href="/administration/">Administration</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="page-heading">Our Special Menu</h2>
+
+        <section class="features-grid">
+
+            <div class="item-card">
+                <img src="{% static 'images/food1.jpg' %}" alt="Paneer Tikka">
+                <h3>1. Paneer Tikka</h3>
+                <p>Marinated cottage cheese grilled in a clay oven.</p>
+                <span class="price">₹240</span>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/food2.jpg' %}" alt="Hyderabadi Biryani">
+                <h3>2. Hyderabadi Biryani</h3>
+                <p>Aromatic basmati rice cooked with spiced chicken.</p>
+                <span class="price">₹320</span>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/food3.jpg' %}" alt="Garlic Butter Naan">
+                <h3>3. Garlic Butter Naan</h3>
+                <p>Soft tandoori flatbread brushed with garlic butter.</p>
+                <span class="price">₹65</span>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/food4.jpg' %}" alt="Masala Dosa">
+                <h3>4. Crispy Masala Dosa</h3>
+                <p>South Indian crepe stuffed with spiced potato mash.</p>
+                <span class="price">₹140</span>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/food5.jpg' %}" alt="Dal Makhani">
+                <h3>5. Dal Makhani</h3>
+                <p>Slow-cooked black lentils in a rich creamy gravy.</p>
+                <span class="price">₹220</span>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/food6.jpg' %}" alt="Veg Manchurian">
+                <h3>6. Crispy Veg Manchurian</h3>
+                <p>Vegetable dumplings tossed in tangy soy-garlic sauce.</p>
+                <span class="price">₹190</span>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/food7.jpg' %}" alt="Grilled Fish">
+                <h3>7. Lemon Herb Grilled Fish</h3>
+                <p>Fresh fillet seasoned with rosemary and citrus.</p>
+                <span class="price">₹380</span>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/food8.jpg' %}" alt="Mushroom Pasta">
+                <h3>8. Creamy Mushroom Pasta</h3>
+                <p>Penne pasta tossed in white truffle mushroom sauce.</p>
+                <span class="price">₹260</span>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/food9.jpg' %}" alt="Tandoori Platter">
+                <h3>9. Royal Tandoori Platter</h3>
+                <p>Assorted kebabs served with mint chutney.</p>
+                <span class="price">₹450</span>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/food10.jpg' %}" alt="Mango Lassi">
+                <h3>10. Alphonso Mango Lassi</h3>
+                <p>Chilled yogurt smoothie blended with sweet mango.</p>
+                <span class="price">₹110</span>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/food11.jpg' %}" alt="Gulab Jamun">
+                <h3>11. Warm Gulab Jamun</h3>
+                <p>Golden milk-solid dumplings soaked in rose syrup.</p>
+                <span class="price">₹95</span>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/food12.jpg' %}" alt="Sizzling Brownie">
+                <h3>12. Sizzling Brownie</h3>
+                <p>Warm fudge brownie topped with vanilla ice cream.</p>
+                <span class="price">₹180</span>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <img src="{% static 'images/logo.jpg' %}" alt="Spice Garden Logo">
+        </div>
+
+        <div class="footer-right">
+            <p>Designed by Jothika R | &copy; 2026 Spice Garden</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Garden - Administration</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+
+    <header>
+        <img src="{% static 'images/logo.jpg' %}" alt="Spice Garden Logo">
+        <h1>SPICE GARDEN</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/menu/">Menu</a></li>
+            <li><a href="/administration/" class="active">Administration</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="page-heading">Our Administration Team</h2>
+
+        <section class="features-grid">
+
+            <div class="item-card">
+                <img src="{% static 'images/staff1.jpg' %}" alt="Founder">
+                <h3>Arjun Mehta</h3>
+                <p><strong>Founder & CEO</strong></p>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/staff2.jpg' %}" alt="Executive Chef">
+                <h3>Priya Nair</h3>
+                <p><strong>Executive Head Chef</strong></p>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/staff3.jpg' %}" alt="Operations Manager">
+                <h3>Vikram Rao</h3>
+                <p><strong>Operations Manager</strong></p>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/staff4.jpg' %}" alt="Sous Chef">
+                <h3>Ananya Sharma</h3>
+                <p><strong>Senior Sous Chef</strong></p>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/staff5.jpg' %}" alt="Guest Relations">
+                <h3>Karthik Subramanian</h3>
+                <p><strong>Guest Relations Manager</strong></p>
+            </div>
+
+            <div class="item-card">
+                <img src="{% static 'images/staff6.jpg' %}" alt="Pastry Chef">
+                <h3>Meera Krishnan</h3>
+                <p><strong>Head Pastry Chef</strong></p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <img src="{% static 'images/logo.jpg' %}" alt="Spice Garden Logo">
+        </div>
+
+        <div class="footer-right">
+            <p>Designed by Jothika R | &copy; 2026 Spice Garden</p>
+        </div>
+    </footer>
+
+</body>
+</html>

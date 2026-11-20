@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spice Garden - Home</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header>
+        <img src="{% static 'images/logo.jpg' %}" alt="Spice Garden Logo">
+        <h1>SPICE GARDEN</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="/menu/">Menu</a></li>
+            <li><a href="/administration/">Administration</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="promo-banner">
+            <h2>30% Off This Weekend</h2>
+            <p>Experience authentic regional dishes crafted from fresh, locally sourced spices and farm produce. Dine in with family and friends this weekend to enjoy an exclusive 30% discount across our entire signature menu.</p>
+        </section>
+
+        <section class="features-grid">
+            <article class="feature-card">
+                <h3>Our New Menu</h3>
+                <img src="{% static 'images/menu-card.jpg' %}" alt="Our New Menu">
+                <p>Explore twelve freshly curated dishes blending traditional recipes with modern presentation. From sizzling tandoori platters to aromatic biryanis, every dish is cooked to order.</p>
+                <a href="/menu/">See our new menu</a>
+            </article>
+
+            <article class="feature-card">
+                <h3>Book a table</h3>
+                <img src="{% static 'images/book-card.jpg' %}" alt="Book a table">
+                <p>Reserve your table in advance for family gatherings, celebrations, or casual weekend dining. Our warm dining hall and attentive staff ensure a memorable experience.</p>
+                <a href="/contact/">Book your table now</a>
+            </article>
+
+            <article class="feature-card">
+                <h3>Opening Hours</h3>
+                <img src="{% static 'images/hours-card.jpg' %}" alt="Opening Hours">
+                <p>We welcome guests throughout the week for lunch and dinner service with fresh daily specials.</p>
+                <ul class="hours-list">
+                    <li>Mon - Fri: 2pm - 10pm</li>
+                    <li>Sat: 2pm - 11pm</li>
+                    <li>Sun: 2pm - 9pm</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <img src="{% static 'images/logo.jpg' %}" alt="Spice Garden Small Logo">
+        </div>
+        <div class="footer-right">
+            <p>Designed by Jothika R| &copy; 2026 Spice Garden</p>
+        </div>
+    </footer>
+</body>
+</html>
+

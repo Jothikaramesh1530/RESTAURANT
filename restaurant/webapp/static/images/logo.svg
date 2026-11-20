@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="500" height="500" viewBox="0 0 500 500">
+
+<circle cx="250" cy="250" r="235" fill="#6b1d2f"/>
+<circle cx="250" cy="250" r="215"
+fill="none" stroke="#e8c47c" stroke-width="8"/>
+
+<text x="250" y="205"
+font-size="95" text-anchor="middle"
+fill="#e8c47c">✦</text>
+
+<text x="250" y="285"
+font-size="43" font-weight="bold"
+text-anchor="middle" fill="white"
+font-family="Georgia">SPICE</text>
+
+<text x="250" y="340"
+font-size="43" font-weight="bold"
+text-anchor="middle" fill="white"
+font-family="Georgia">GARDEN</text>
+
+<text x="250" y="390"
+font-size="18" text-anchor="middle"
+fill="#e8c47c"
+font-family="Georgia">AUTHENTIC TASTE</text>
+
+</svg>
